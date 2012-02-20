@@ -1,0 +1,156 @@
+/*The Happiness Engine Styles*/
+
+body {
+	overflow-x: hidden;
+	background: #509f21;
+}
+
+#top_bar {
+	background-image: url(_images/img_background.png);
+	background-repeat: repeat-x;
+	box-shadow: 0 0 5px hsl(0, 0%, 15%);
+	-moz-box-shadow: 0 0 5px hsl(0, 0%, 15%);
+	-webkit-box-shadow: 0 0 5px hsl(0, 0%, 15%);
+	margin-left:-15px;
+	padding-right:23px;
+	margin-top:-15px;
+	width:100%;
+	height:40px;
+}
+
+#top_bar h1 {
+	color:#fff;
+	font-family: helvetica, arial, sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+	margin-left: 3%;
+	padding-top:15px;
+	text-transform:uppercase;
+}
+
+#container {
+	overflow:auto;
+	margin: 10px auto;
+	padding: 10px 0 15px 0;
+	width:800px;
+	text-align:center;
+}
+
+
+#container h1 {
+	font-family:helvetica, arial, sans-serif;
+	font-size:34px;
+	color:#3e3e3e;
+	text-align:left;
+	margin-top:10px;
+	padding-left:38px;
+}
+
+#container p {
+	font-family:helvetica, arial, sans-serif;
+	text-align:left;
+}
+
+.enterbox {
+	background:#e2e2e2;
+	display:inline;
+	float:left;
+	margin: 0 auto 20px auto;
+	width:800px;
+	padding: 10px 0 25px 0;
+	text-align:center;
+	box-shadow: 0 0 7px hsl(0, 0%, 15%);
+	-moz-box-shadow: 0 0 7px hsl(0, 0%, 15%);
+	-webkit-box-shadow: 0 0 7px hsl(0, 0%, 15%);
+}
+
+#formington {
+	margin: -32px 0 7px 0;
+}
+
+.submitButtons {
+	display:inline;
+	margin: 0 auto;
+	text-align:center;
+}
+
+#gobutton {
+	color:#e2e2e2;
+	display:inline-block;
+	font-family:helvetica, arial, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	background:#2e2e2e;
+	margin-right:5px;
+	padding:4px 7px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 2px hsl(0, 0%, 15%);
+	-moz-box-shadow: 0 0 2px hsl(0, 0%, 15%);
+	-webkit-box-shadow: 0 0 2px hsl(0, 0%, 15%);
+}
+
+#clearbutton {
+	color:#e2e2e2;
+	display:inline-block;
+	font-family:helvetica, arial, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	background:#2e2e2e;
+	padding:4px 7px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 2px hsl(0, 0%, 15%);
+	-moz-box-shadow: 0 0 2px hsl(0, 0%, 15%);
+	-webkit-box-shadow: 0 0 2px hsl(0, 0%, 15%);
+}
+
+#answerbox {
+	display:inline;
+	float:left;
+	font-family:helvetica, arial, sans-serif;
+	font-size:24px;
+	letter-spacing:1px;
+	background:#fff;
+	border: 4px solid #e2e2e2;
+	width:722px;
+	height:150px;
+	box-shadow: 0 0 7px hsl(0, 0%, 15%);
+	-moz-box-shadow: 0 0 7px hsl(0, 0%, 15%);
+	-webkit-box-shadow: 0 0 7px hsl(0, 0%, 15%);
+	margin: 0 auto;
+	text-align:center;
+	padding: 5px 35px;
+}
+
+#NumSmiles {
+	color:#fff;
+	font-size:48px;
+	display:inline;
+	margin-top:10px;
+}
+
+.smileyface {
+	display:inline-block;
+	width:128px;
+	height:45px;
+}
+.smileyface2 {
+	display:inline-block;
+	width:128px;
+}
+
+#answerbox p {
+	display:inline;
+}
+
+.onBoxText {
+	display:inline;
+	margin-right:5px;
+}
