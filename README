@@ -1,0 +1,19 @@
+// function Smileyface() {
+// 	var Eyes = ":";
+// 	var Mouth = ")";
+// 	Face = [":","-",")"];
+// 	for(i = 0; i < Face.length; i++) { 
+// 		Smile.push(Face[i]);
+// 	}
+// return Smile;
+// }
+
+I presented the above code to Meghan Louttit.
+It didn't work.
+I decided this was better than trying to fix it.
+
+This is the 6th iteration of this code.
+
+It counts the number of possible smiley faces in a block of text.
+
+
